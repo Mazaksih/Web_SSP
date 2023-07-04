@@ -1,0 +1,113 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block hero %}
+  <div class="hero">
+    <div class="container">
+      <div class="box-hero">
+        <div class="box">
+          <h1>
+            Destinasi pilihan terbaik <br />
+            liburan bersama keluarga
+          </h1>
+          <p>
+            Nikmati liburan bersama keluarga, teman, dan saudara
+          </p>
+          <button>Pesan sekarang</button>
+        </div>
+        <div class="box">
+          <img src="{% static 'img/Hero.png' %}" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock%}
+{% block apaya %}
+    <!-- Services -->
+    <div class="services" id="services">
+      <div class="container">
+        <div class="box-services">
+          <div class="box">
+            <i class="fa-solid fa-coins"></i>
+            <h4>Harga Terjangkau</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
+              labore.
+            </p>
+          </div>
+          <div class="box">
+            <i class="fa-solid fa-certificate"></i>
+            <h4>Sudah Tersertifikasi</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
+              labore.
+            </p>
+          </div>
+          <div class="box">
+            <i class="fa-solid fa-people-roof"></i>
+            <h4>Aman dan Ramah</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
+              labore.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Services -->
+
+    <!-- Pantai -->
+    <div class="pantai" id="pantai">
+      <div class="container">
+        <h2 style="padding-bottom: 3rem; color: white">
+          Pantai yang sering dikunjungi
+        </h2>
+        <div class="box-pantai">
+          <div class="box">
+            <img src="{% static 'img/pantai1.jpg' %}" alt="" />
+            <h3>Destinasi Pantai 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde,
+              modi.
+            </p>
+            <button>Detail</button>
+          </div>
+          <div class="box">
+            <img src="{% static 'img/pantai2.jpg' %}" alt="" />
+            <h3>Destinasi Pantai 2</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde,
+              modi.
+            </p>
+            <button>Detail</button>
+          </div>
+          <div class="box">
+            <img src="{% static 'img/pantai3.jpg' %}" alt="" />
+            <h3>Destinasi Pantai 3</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde,
+              modi.
+            </p>
+            <button>Detail</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Pantai -->
+
+    <!-- Daftar -->
+    <div class="daftar" id="daftar">
+      <div class="container">
+        <div class="box-daftar">
+          <h1>
+            Ingin Berlibur? <br />
+            Segera Daftarkan Keluarga Anda!
+          </h1>
+          <h3>Klik Link di Bawah Ini!</h3>
+          <button><i class="fa-brands fa-whatsapp"></i> Whatsapp</button>
+          <button><i class="fa-regular fa-envelope"></i> Gmail</button>
+          <button><i class="fa-regular fa-clipboard"></i> Google Form</button>
+        </div>
+      </div>
+    </div>
+
+{% endblock %}    

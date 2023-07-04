@@ -1,0 +1,14 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block apaya %}
+    <div class="container">
+        <section id="form">
+            <form action="" method="post">
+                {% csrf_token %}
+                {{form.as_p}}
+                <button type="submit" class="btn btn-primary">Pesan</button>
+                <!-- koyok command sen ngendek tekan kene ndelok data e ke input opo gak -->
+            </form>
+        </section>
+    </div>
+{% endblock %}
